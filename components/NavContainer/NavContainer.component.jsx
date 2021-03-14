@@ -6,7 +6,7 @@ const NavContainer = () => {
   return (
     <nav className={styles.container}>
       <div className={styles.logoWrapper}>
-        <a href='#intro' aria-label='home'>
+        <a href='#intro' aria-label='home' className={styles.logoLink}>
           <img className={styles.logo} src='/logo.svg' alt='logo' />
         </a>
       </div>

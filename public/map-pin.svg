@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path d="M128 66a38 38 0 1 0 38 38a38.043 38.043 0 0 0-38-38zm0 64a26 26 0 1 1 26-26a26.03 26.03 0 0 1-26 26zm0-112a86.097 86.097 0 0 0-86 86c0 30.907 14.34 63.736 41.472 94.937a252.261 252.261 0 0 0 41.087 37.978a5.997 5.997 0 0 0 6.881 0a252.26 252.26 0 0 0 41.087-37.978C199.66 167.736 214 134.907 214 104a86.097 86.097 0 0 0-86-86zm0 206.512C112.977 212.926 54 163.624 54 104a74 74 0 0 1 148 0c0 59.624-58.98 108.927-74 120.512z" fill="white"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false"
+    width="1em" height="1em"
+    style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+    preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+    <path
+        d="M128 66a38 38 0 1 0 38 38a38.043 38.043 0 0 0-38-38zm0 64a26 26 0 1 1 26-26a26.03 26.03 0 0 1-26 26zm0-112a86.097 86.097 0 0 0-86 86c0 30.907 14.34 63.736 41.472 94.937a252.261 252.261 0 0 0 41.087 37.978a5.997 5.997 0 0 0 6.881 0a252.26 252.26 0 0 0 41.087-37.978C199.66 167.736 214 134.907 214 104a86.097 86.097 0 0 0-86-86zm0 206.512C112.977 212.926 54 163.624 54 104a74 74 0 0 1 148 0c0 59.624-58.98 108.927-74 120.512z"
+        fill="white" /></svg>
