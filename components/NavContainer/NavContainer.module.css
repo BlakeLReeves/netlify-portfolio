@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #23272a;
+  color: #fff;
+  max-height: 9rem;
+}
+
+.logoWrapper {
+  padding: 1rem;
+}
+
+.logo:hover {
+  background-color: #7289da;
+  border-radius: 50%;
+}

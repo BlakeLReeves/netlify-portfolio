@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 3.25rem;
+  color: #fff;
+}
+
+.emailMe {
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  max-width: 80rem;
+  text-align: center;
+}
+
+.emailLink {
+  font-size: 1.6rem;
+  border: 1px solid #7289da;
+  color: #7289da;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.emailLink:hover {
+  background-color: rgba(114, 137, 218, 0.3);
+  color: #fff;
+}

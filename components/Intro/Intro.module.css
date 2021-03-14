@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.imageContainer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  font-size: 3.25rem;
+  color: #fff;
+}
+
+.locationWrapper {
+  padding-top: 0.5rem;
+}
+
+.locationWrapper,
+.jobTitleWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.jobTitle,
+.location {
+  font-size: 1.25rem;
+  padding-left: 0.5rem;
+}
+
+.description {
+  max-width: 80rem;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+  text-align: center;
+}

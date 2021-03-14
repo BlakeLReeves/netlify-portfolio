@@ -1,0 +1,34 @@
+.container {
+  font-size: 1.6rem;
+  padding-left: 3rem;
+  width: fit-content;
+}
+
+.roleHeader {
+  font-size: 2.25rem;
+  color: #fff;
+}
+
+.employer,
+.dutyListItem::before {
+  color: #7289da;
+}
+
+.dutiesListContainer {
+  position: relative;
+}
+
+.dutyListItem {
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+}
+
+.dutyListItem:last-of-type {
+  margin-bottom: 0;
+}
+
+.dutyListItem::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+}
