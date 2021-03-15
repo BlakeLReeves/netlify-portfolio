@@ -86,11 +86,41 @@ const NavRight = () => {
           href='/blake-reeves-resume.pdf'
           target='_blank'
           rel='noopener noreferrer'
-          className={styles.resumeLink}
+          className={`${styles.resumeLink} ${styles.section}`}
           onClick={() => handleClickLink()}
         >
           Resume
         </a>
+        <div className={styles.socialLinks}>
+          <a
+            className={styles.socialLink}
+            href='https://github.com/BlakeLReeves'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img id={styles.github} src='/github.svg' alt='github link' />
+          </a>
+          <a
+            className={styles.socialLink}
+            href='https://www.linkedin.com/in/blake-reeves/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              id={styles.animateDownedin}
+              src='/linkedin.svg'
+              alt='linkedin link'
+            />
+          </a>
+          <a
+            className={styles.socialLink}
+            href='https://twitter.com/BlakeReeves'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img id={styles.twitter} src='/twitter.svg' alt='twitter link' />
+          </a>
+        </div>
       </div>
     </>
   );

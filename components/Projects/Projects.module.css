@@ -67,8 +67,6 @@
 .githubLinkImg:hover,
 .websiteLinkImg:hover {
   background-color: #7289da;
-  width: 3rem;
-  height: 3rem;
 }
 
 .githubLinkImg:hover {

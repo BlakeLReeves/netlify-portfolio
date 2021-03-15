@@ -2,6 +2,7 @@ export const EXPERIENCE_DATA = [
   {
     id: 1,
     employer: 'Old Hickory Buildings',
+    link: 'https://oldhickorybuildings.com/',
     jobTitle: 'Software Developer',
     dates: 'June 2019 - Present',
     duties: [
@@ -22,6 +23,7 @@ export const EXPERIENCE_DATA = [
   {
     id: 2,
     employer: 'StaySense',
+    link: 'https://staysense.com/',
     jobTitle: 'Software Developer Intern',
     dates: 'April 2019 - May 2019',
     duties: [

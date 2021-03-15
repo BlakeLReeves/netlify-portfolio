@@ -4,7 +4,7 @@ export const PROJECTS_DATA = [
     title: 'CRWN Clothing',
     imageUrl: '/projects/crwn-clothing-desktop.png',
     description:
-      'This is a project that I built out in ReactJS. This is a project that I built out in ReactJS. This is a project that I built out in ReactJS',
+      'An ecommerce web application with user authentication and google sign in integrated. Shop from the available categories, browse the available items, and manage your items with a built out cart feature. Ability to checkout out items via Stripe Api integration.',
     stack: [
       {
         id: 1,
