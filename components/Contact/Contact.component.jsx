@@ -1,11 +1,6 @@
-import { aosInit } from '../../hooks/aos';
-
-import 'aos/dist/aos.css';
 import styles from './Contact.module.css';
 
 const Contact = () => {
-  aosInit(1000);
-
   return (
     <div className={styles.container} id='contact'>
       <h1

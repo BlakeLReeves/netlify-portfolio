@@ -7,7 +7,11 @@ import Experience from '@components/Experience/Experience.component';
 import Contact from '@components/Contact/Contact.component';
 import Footer from '@components/Footer/Footer.component';
 
+import { aosInit } from '../hooks/aos';
+
 export default function Home() {
+  aosInit(1000);
+
   return (
     <div className='topContainer'>
       <Head>

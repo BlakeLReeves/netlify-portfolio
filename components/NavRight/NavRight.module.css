@@ -8,7 +8,6 @@
   flex-direction: column;
   justify-content: space-around;
   cursor: pointer;
-  animation: fadeIn ease 3s;
 }
 
 .burger div {
@@ -41,44 +40,6 @@
 
 #thirdRotated {
   transform: rotate(-45deg);
-}
-
-.section {
-  transform: translateY(0);
-  animation: fadeInDown 1000ms forwards;
-}
-
-.socialLink {
-  transform: translateY(0);
-  animation: fadeInDown 1000ms forwards;
-}
-
-.section:nth-child(2) {
-  animation-delay: 150ms;
-}
-
-.section:nth-child(3) {
-  animation-delay: 300ms;
-}
-
-.section:nth-child(4) {
-  animation-delay: 450ms;
-}
-
-.section:nth-child(5) {
-  animation-delay: 600ms;
-}
-
-.socialLink:nth-child(1) {
-  animation-delay: 750ms;
-}
-
-.socialLink:nth-child(2) {
-  animation-delay: 900ms;
-}
-
-.socialLink:nth-child(3) {
-  animation-delay: 1050ms;
 }
 
 .socialLinks {
@@ -157,20 +118,5 @@
 
   .closed {
     transform: translateX(100%);
-  }
-}
-
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
-
-@keyframes fadeInDown {
-  from {
-    transform: translateY(-60px);
-    opacity: 0;
-  } to {
-    transform: translateY(0);
-    opacity: 1;
   }
 }

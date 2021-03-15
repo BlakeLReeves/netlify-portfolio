@@ -5,7 +5,11 @@ import styles from './NavContainer.module.css';
 const NavContainer = () => {
   return (
     <nav className={styles.container}>
-      <div className={styles.logoWrapper}>
+      <div
+        data-aos='fade-right'
+        data-aos-easing='ease-in-out'
+        className={styles.logoWrapper}
+      >
         <a href='#intro' aria-label='home' className={styles.logoLink}>
           <img className={styles.logo} src='/logo.svg' alt='logo' />
         </a>

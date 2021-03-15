@@ -15,7 +15,6 @@
   padding: 1rem;
   display: flex;
   align-items: center;
-  animation: fadeIn ease 3s;
 }
 
 .logoLink {
@@ -31,9 +30,4 @@
 .logo:hover {
   background-color: #7289da;
   border-radius: 50%;
-}
-
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
 }

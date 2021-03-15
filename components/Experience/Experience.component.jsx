@@ -2,15 +2,11 @@ import { useState } from 'react';
 import { EXPERIENCE_DATA as experience } from '../../data/experience.data';
 
 import Employer from '@components/Employer/Employer.component';
-import { aosInit } from '../../hooks/aos';
 
-import 'aos/dist/aos.css';
 import styles from './Experience.module.css';
 
 const Experience = () => {
   const [employer, setEmployer] = useState(experience[0]);
-
-  aosInit(1000);
 
   return (
     <div className={styles.container} id='experience'>

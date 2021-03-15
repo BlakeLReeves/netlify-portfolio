@@ -64,25 +64,50 @@ const NavRight = () => {
 
   return (
     <>
-      <div className={styles.burger} onClick={() => setOpen(!open)}>
+      <div
+        data-aos='fade-left'
+        className={styles.burger}
+        onClick={() => setOpen(!open)}
+      >
         <div id={first} />
         <div id={second} />
         <div id={third} />
       </div>
       <div ref={wrapperRef} className={containerClasses}>
-        <div className={styles.section} onClick={() => handleClickLink()}>
+        <div
+          data-aos='fade-down'
+          className={styles.section}
+          onClick={() => handleClickLink()}
+        >
           <a href='#skills'>Skills</a>
         </div>
-        <div className={styles.section} onClick={() => handleClickLink()}>
+        <div
+          data-aos='fade-down'
+          data-aos-delay='100'
+          className={styles.section}
+          onClick={() => handleClickLink()}
+        >
           <a href='#projects'>Projects</a>
         </div>
-        <div className={styles.section} onClick={() => handleClickLink()}>
+        <div
+          data-aos='fade-down'
+          data-aos-delay='200'
+          className={styles.section}
+          onClick={() => handleClickLink()}
+        >
           <a href='#experience'>Experience</a>
         </div>
-        <div className={styles.section} onClick={() => handleClickLink()}>
+        <div
+          data-aos='fade-down'
+          data-aos-delay='300'
+          className={styles.section}
+          onClick={() => handleClickLink()}
+        >
           <a href='#contact'>Contact</a>
         </div>
         <a
+          data-aos='fade-down'
+          data-aos-delay='400'
           href='/blake-reeves-resume.pdf'
           target='_blank'
           rel='noopener noreferrer'
@@ -93,6 +118,8 @@ const NavRight = () => {
         </a>
         <div className={styles.socialLinks}>
           <a
+            data-aos='fade-down'
+            data-aos-delay='500'
             className={styles.socialLink}
             href='https://github.com/BlakeLReeves'
             target='_blank'
@@ -101,18 +128,18 @@ const NavRight = () => {
             <img id={styles.github} src='/github.svg' alt='github link' />
           </a>
           <a
+            data-aos='fade-down'
+            data-aos-delay='600'
             className={styles.socialLink}
             href='https://www.linkedin.com/in/blake-reeves/'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img
-              id={styles.animateDownedin}
-              src='/linkedin.svg'
-              alt='linkedin link'
-            />
+            <img src='/linkedin.svg' alt='linkedin link' />
           </a>
           <a
+            data-aos='fade-down'
+            data-aos-delay='700'
             className={styles.socialLink}
             href='https://twitter.com/BlakeReeves'
             target='_blank'

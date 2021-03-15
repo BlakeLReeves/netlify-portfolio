@@ -1,8 +1,5 @@
 import SkillList from '../SkillList/SkillList.component';
 
-import { aosInit } from '../../hooks/aos';
-
-import 'aos/dist/aos.css';
 import styles from './Skills.module.css';
 
 const languages = ['Javascript', 'PHP', 'Apex', 'HTML5', 'CSS3'];
@@ -13,8 +10,6 @@ const data = ['MySQL', 'Firebase'];
 const other = ['NPM', 'Yarn', 'Stripe', 'Jira'];
 
 const Skills = () => {
-  aosInit(1000);
-
   return (
     <div className={styles.container} id='skills'>
       <h1

@@ -1,12 +1,8 @@
 import { PROJECTS_DATA as projects } from '../../data/projects.data';
-import { aosInit } from '../../hooks/aos';
 
-import 'aos/dist/aos.css';
 import styles from './Projects.module.css';
 
 const Projects = () => {
-  aosInit(1000);
-
   return (
     <div className={styles.container} id='projects'>
       <h1

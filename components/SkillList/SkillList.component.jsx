@@ -1,11 +1,6 @@
-import { aosInit } from '../../hooks/aos';
-
-import 'aos/dist/aos.css';
 import styles from './SkillList.module.css';
 
 const SkillList = ({ group, skills }) => {
-  aosInit(1000);
-
   return (
     <>
       <div

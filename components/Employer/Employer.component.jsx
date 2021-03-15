@@ -1,13 +1,8 @@
-import { aosInit } from '../../hooks/aos';
-
-import 'aos/dist/aos.css';
 import styles from './Employer.module.css';
 
 const Employer = ({
   employer: { employer, link, jobTitle, dates, duties },
 }) => {
-  aosInit(1000);
-
   return (
     <div className={styles.container}>
       <h3

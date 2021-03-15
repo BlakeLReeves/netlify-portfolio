@@ -12,8 +12,6 @@
   height: 200px;
   overflow: hidden;
   border-radius: 50%;
-  animation: fadeInUp 1000ms forwards;
-  transition-delay: 100ms;
 }
 
 .image {
@@ -24,19 +22,10 @@
 .name {
   font-size: 3.25rem;
   color: #fff;
-  animation: fadeInUp 1300ms forwards;
-  transition-delay: 200ms;
-}
-
-.jobTitleWrapper {
-  animation: fadeInUp 1600ms forwards;
-  transition-delay: 300ms;
 }
 
 .locationWrapper {
   padding-top: 0.5rem;
-  animation: fadeInUp 1900ms forwards;
-  transition-delay: 400ms;
 }
 
 .locationWrapper,
@@ -56,16 +45,4 @@
   margin: 2rem auto;
   font-size: 1.6rem;
   text-align: center;
-  animation: fadeInUp 2200ms forwards;
-  transition-delay: 500ms;
-}
-
-@keyframes fadeInUp {
-  from {
-    transform: translateY(100px);
-    opacity: 0;
-  } to {
-    transform: translateY(0);
-    opacity: 1;
-  }
 }
