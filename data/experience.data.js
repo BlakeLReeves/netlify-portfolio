@@ -8,15 +8,19 @@ export const EXPERIENCE_DATA = [
     duties: [
       {
         id: 1,
-        duty: `Learned how to develop in Salesforce using the Apex programming language with no prior experience, and learned SOQL for querying within the platform.`,
+        duty: `Worked on front-end and back-end for internal company websites using HTML, CSS, Javascript, and PHP.`,
       },
       {
         id: 2,
-        duty: `Used agile tools such as Jira in order to maintain and complete issues through tickets in a team environment, and used GitLab/Bitbucket for version control of the codebase.`,
+        duty: `Redesigned internal application with a modern layout focused on user experience with a responsive design using Flexbox and CSS Grid. Ensured that application is usable across desktop screen sizes and mobile devices, and added the ability to theme css files depending upon user company.`,
       },
       {
         id: 3,
-        duty: `Worked on front-end and back-end for internal company websites for dealers using HTML, CSS, Javascript, and PHP. Learned the salesforce platform in order to help maintain the company’s Salesforce organization used to maintain customer relations.`,
+        duty: `Managed data integration from internal website to Salesforce through Api calls to parse information for inserting, updating, and deleting information.`,
+      },
+      {
+        id: 4,
+        duty: `Learned how to develop in Salesforce using the Apex programming language and Lightning Web Components with no prior experience.`,
       },
     ],
   },
@@ -29,7 +33,7 @@ export const EXPERIENCE_DATA = [
     duties: [
       {
         id: 1,
-        duty: `Worked closely with the lead developer through shadowing, code reviews, and completing assigned coding projects and challenges.`,
+        duty: `Worked on front-end for in house application in React, integrating with Property Management Systems through Api calls in Node.js, and syncing data to MySQL Database.`,
       },
       {
         id: 2,
@@ -37,7 +41,7 @@ export const EXPERIENCE_DATA = [
       },
       {
         id: 3,
-        duty: `Worked on front-end for in house application in ReactJS, and on integrating with Property Management Systems through API calls in NodeJS and syncing data to MySQL Database.`,
+        duty: `Worked closely with the lead developer through shadowing, code reviews, and completing assigned coding projects and challenges.`,
       },
     ],
   },

@@ -18,7 +18,7 @@ const Contact = () => {
       >
         If you have a question or you have interest in my work, please send me
         an email at blake.reeves.dev@gmail.com. I will do my best to get back
-        with you as soon as possibles. Thank you for taking the time to look at
+        with you as soon as possible. Thank you for taking the time to look at
         my website and projects.
       </p>
       <a

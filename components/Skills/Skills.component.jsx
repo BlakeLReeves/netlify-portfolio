@@ -7,7 +7,18 @@ const frameworks = ['React', 'Node.js'];
 const libraries = ['Redux', 'Express', 'jQuery'];
 const styling = ['Bootstrap', 'Sass', 'Styled Components'];
 const data = ['MySQL', 'Firebase'];
-const other = ['NPM', 'Yarn', 'Stripe', 'Jira'];
+const hosting = ['Heroku', 'Netlify'];
+const other = [
+  'Git',
+  'Github',
+  'NPM',
+  'Yarn',
+  'Stripe',
+  'Jira',
+  'Postman',
+  'CLI',
+  'CI/CD',
+];
 
 const Skills = () => {
   return (
@@ -25,6 +36,7 @@ const Skills = () => {
         <SkillList group='Libraries' skills={libraries} />
         <SkillList group='Styling' skills={styling} />
         <SkillList group='Data' skills={data} />
+        <SkillList group='Hosting' skills={hosting} />
         <SkillList group='Other' skills={other} />
       </div>
     </div>

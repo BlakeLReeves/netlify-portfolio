@@ -63,6 +63,11 @@
   border-radius: 50%;
 }
 
+.socialLinks a img:hover {
+  background-color: #7289da;
+  border-radius: 50%;
+}
+
 .socialLinks a #linkedin:hover {
   border-radius: 0.5rem;
 }

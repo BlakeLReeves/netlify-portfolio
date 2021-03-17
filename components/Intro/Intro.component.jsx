@@ -37,7 +37,7 @@ const Intro = () => (
       className={styles.locationWrapper}
     >
       <img src='/map-pin.svg' alt='pin' />
-      <span className={styles.location}>Nashville, TN</span>
+      <span className={styles.location}>Spring Hill, TN</span>
     </div>
     <div
       data-aos='fade-up'
@@ -47,8 +47,9 @@ const Intro = () => (
     >
       Hi, my name is Blake Reeves. I am a full stack software developer based
       out of the Nashville area. I love to work with React and Node.js. In my
-      spare time, I enjoy reading science fiction/fantasy books, spending time
-      with my family, going outdoors, and developing personal projects.
+      spare time, I enjoy reading fantasy/science fiction books, watching
+      streamed content, spending time with my family, going outdoors, and
+      developing personal projects.
     </div>
   </div>
 );

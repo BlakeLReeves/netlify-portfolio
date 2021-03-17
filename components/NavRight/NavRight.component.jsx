@@ -135,7 +135,7 @@ const NavRight = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img src='/linkedin.svg' alt='linkedin link' />
+            <img id={styles.linkedin} src='/linkedin.svg' alt='linkedin link' />
           </a>
           <a
             data-aos='fade-down'
